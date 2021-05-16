@@ -9,6 +9,6 @@ for infile in sys.argv[1:]:
     try:
       with Image.open(infile) as img:
         img.thumbnail(size)
-        img.save(outfile, "JPG")
+        img.save(outfile, "JPEG")
     except OSError:
       print("não foi possível criar miniatura para", infile)
