@@ -10,5 +10,5 @@ for infile in sys.argv[1:]:
       with Image.open(infile) as img:
         img.thumbnail(size)
         img.save(outfile, "JPG")
-    except OSError;
+    except OSError:
       print("não foi possível criar miniatura para", infile)
