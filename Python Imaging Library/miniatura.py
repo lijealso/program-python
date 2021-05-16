@@ -12,3 +12,4 @@ for infile in sys.argv[1:]:
         img.save(outfile, "JPEG")
     except OSError:
       print("não foi possível criar miniatura para", infile)
+img.show()
