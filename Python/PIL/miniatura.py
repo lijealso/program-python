@@ -1,3 +1,4 @@
+#fazer miniatura de uma imagem
 import os, sys
 from PIL import Image
 
