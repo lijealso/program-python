@@ -1,8 +1,12 @@
 # criar uma tabela simples com prettytable
 
-from prettytable import prettytable
+from prettytable import PrettyTable
+
 # especificar o nome das colunas
-minhatabela = prettytable(["Código", "Nome", "Horas"])
+minhatabela = PrettyTable()
+
+minhatabela.field_names = ["Código", "Nome", "Horas"]
+
 # adicionar linhas
 minhatabela.add_row(["0769", "Arquitetura interna do computador", "25"])
 minhatabela.add_row(["0800", "Serviços adicionais de rede", "50"])
