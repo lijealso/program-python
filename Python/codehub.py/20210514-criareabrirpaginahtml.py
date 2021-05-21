@@ -3,7 +3,7 @@
 
 import webbrowser
 
-f = open('helloworld.html','wb')
+f = open('helloworld.html','w')
 
 message = """<html>
 <head></head>
