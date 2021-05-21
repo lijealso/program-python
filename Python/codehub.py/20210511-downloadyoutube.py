@@ -1,3 +1,4 @@
+# videos não têm som !!
 from pytube import YouTube
 
 # não esquecer de instalar o módulo
