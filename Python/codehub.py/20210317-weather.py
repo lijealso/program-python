@@ -1,6 +1,6 @@
 import requests, json
 city = "lisbon"
-api_key = "e661f46e60e247d88e02de4653eebe8d"
+api_key = "introduza a sua api key"
 base_url = "https://api.openweathermap.org/data/2.5/weather"
 url = base_url+"?q="+city+"&appid="+api_key+"&units=metric"
 response = requests.get(url)
