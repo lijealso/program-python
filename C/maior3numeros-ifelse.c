@@ -22,7 +22,7 @@ void main()
         }
         else
         {
-            printf("O número %d é o maior.",z);
+            printf("O número %d é o maior.",z);     // x > y V --- x > z F = z > x V => z > x > y == z é o número maior
         }
     }
     else                                            // se o número 2 é maior, comparar com o terceiro
