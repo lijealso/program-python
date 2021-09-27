@@ -15,7 +15,8 @@ int main()
         valor = valor/2;
         printf("valor do bit: %d = %d\n", i, binario[i]);
     }
-        printf("Representação em binario: |");
+    printf("Representacao em binario: |");
+
     for (i = 0 ; i <8 ; i++)
     {
         printf(" %d |", binario[i]);
